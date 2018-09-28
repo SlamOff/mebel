@@ -1,0 +1,12 @@
+@font-face {
+	font-family: "PF AgoraSansPro";
+	src: url("../fonts/pfagorasanspro-reg.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "PF AgoraSansPro";
+	src: url("../fonts/pfagorasanspro-bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
