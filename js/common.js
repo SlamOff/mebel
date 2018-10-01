@@ -65,6 +65,12 @@ $(document).ready(function() {
 		nextArrow: '.prod3_next',
 		prevArrow: '.prod3_prev'
 	});
+	$('.photo_slider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		nextArrow: '.photo_next',
+		prevArrow: '.photo_prev'
+	});
 	
 	
 

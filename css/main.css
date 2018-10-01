@@ -681,6 +681,9 @@ h2 {
 .about .text {
 	text-align: center;
 }
+.product {
+	padding-bottom: 0;
+}
 .product .first_prod_q {
 	text-align: center;
 	margin-top: 4rem;
@@ -806,7 +809,7 @@ h2 {
 	justify-content: flex-end;
 }
 .service .row:first-of-type .text {
-	transform: translateY(-6rem);
+	transform: translateY(-10rem);
 }
 .rev .slider_wrapper {
 	max-width: 970px;
@@ -852,4 +855,36 @@ h2 {
 }
 .contact img {
 	max-width: 100%;
+}
+.photo .photo_item {
+	height: 570px;
+	position: relative;
+}
+.photo .photo_item img {
+	display: block;
+	position: absolute;
+}
+.photo .photo_item img:first-of-type {
+	left: 1px;
+	bottom: 0;
+}
+.photo .photo_item img:nth-of-type(2) {
+	left: 300px;
+	top: 0;
+}
+.photo .photo_item img:nth-of-type(3) {
+	left: 300px;
+	bottom: 0;
+}
+.photo .photo_item img:last-of-type {
+	right: 1px;
+	top: 0;
+}
+.photo .prev {
+	left: 0;
+	top: 0;
+}
+.photo .next {
+	left: 100px;
+	top: 0;
 }
