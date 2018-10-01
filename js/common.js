@@ -71,6 +71,12 @@ $(document).ready(function() {
 		nextArrow: '.photo_next',
 		prevArrow: '.photo_prev'
 	});
+	$('.photo_slider2').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		nextArrow: '.photo_next2',
+		prevArrow: '.photo_prev2'
+	});
 	
 	
 
