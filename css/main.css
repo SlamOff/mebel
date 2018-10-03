@@ -504,6 +504,8 @@ label.error {
 }
 header {
 	padding-top: 12px;
+	position: relative;
+	z-index: 1;
 }
 main {
 	display: block;
@@ -541,7 +543,7 @@ main {
 	left: 0;
 	top: 0;
 	z-index: 1;
-	background-color: rgba(255,255,255,.5);
+	background-color: rgba(255,255,255,.6);
 }
 .main:before {
 	/*content: "";*/
