@@ -1,4 +1,10 @@
 /*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1366px) {
+	.main .video_wrapper video {
+		height: 100%;
+		width: auto;
+	}
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {

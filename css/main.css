@@ -511,12 +511,40 @@ main {
 }
 .main {
 	position: relative;
-	background-image: url(../img/main_bg.jpg);
+	/*background-image: url(../img/main_bg.jpg);*/
 	background-repeat: no-repeat;
 	background-position: center top;
 }
+.main .video_wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.main .video_wrapper video {
+	width: 100%;
+	/*height: 100%;*/
+	position: absolute;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	left: 50%;
+	bottom: 0;
+}
+.main .video_wrapper .mask {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	background-color: rgba(255,255,255,.5);
+}
 .main:before {
-	content: "";
+	/*content: "";*/
 	position: absolute;
 	top: 100px;
 	left: 0;
