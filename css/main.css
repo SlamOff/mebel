@@ -661,7 +661,10 @@ h2 {
 	background-color: #f4b84c;
 }
 .main_btns a {
-	display: block;
+	display: inline-block;
+}
+.main_btns a:first-of-type {
+	margin-right: 30px;
 }
 .main_btns .main_btn2 {
 	max-width: 370px;

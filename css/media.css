@@ -182,6 +182,9 @@
 	.made_by {
 		text-align: center;
 	}
+	.main_btns a:first-of-type {
+		margin-right: 0;
+	}
 	footer {
 		text-align: center;
 	}
